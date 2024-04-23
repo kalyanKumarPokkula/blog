@@ -1,0 +1,27 @@
+.btn {
+  align-items: center;
+  border-color: transparent;
+  border-radius: 4px;
+  border-width: 1px;
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  transition-duration: 0.3s;
+  transition-property: all;
+}
+
+.btn-primary {
+  background-color: rgb(255, 92, 57);
+  color: rgb(255, 255, 255);
+}
+
+.leading-snug {
+  line-height: 1.2;
+}
+
+.text-red {
+  --tw-text-opacity: 1;
+  color: rgb(255 92 57 / var(--tw-text-opacity));
+}
