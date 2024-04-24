@@ -6,6 +6,7 @@ import food2 from "../assets/food2.png";
 import travel from "../assets/travel.png";
 import blog from "../assets/Blog.png";
 import "./Layout.css";
+import { Link } from "react-router-dom";
 
 function Layout() {
   return (
@@ -55,12 +56,14 @@ function Layout() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a
-                href="#"
-                class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
-              >
-                Read More
-              </a>
+              <Link to="/blog/1">
+                <a
+                  href="#"
+                  class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
+                >
+                  Read More
+                </a>
+              </Link>
             </div>
           </div>
 
@@ -76,12 +79,14 @@ function Layout() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a
-                href="#"
-                class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
-              >
-                Read More
-              </a>
+              <Link to="/blog/1">
+                <a
+                  href="#"
+                  class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
+                >
+                  Read More
+                </a>
+              </Link>
             </div>
           </div>
 
@@ -96,12 +101,14 @@ function Layout() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a
-                href="#"
-                class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
-              >
-                Read More
-              </a>
+              <Link to="/blog/1">
+                <a
+                  href="#"
+                  class="text-blue-500 font-bold mt-2 inline-block hover:text-blue-700"
+                >
+                  Read More
+                </a>
+              </Link>
             </div>
           </div>
         </div>
