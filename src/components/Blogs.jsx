@@ -1,4 +1,5 @@
 import "./Blogs.css";
+import { Link } from "react-router-dom";
 
 function Blogs() {
   return (
@@ -42,9 +43,11 @@ function Blogs() {
               </a>
               <footer class="mt-6 flex items-start">
                 <a href="#"></a>
-                <a href="#" class="btn btn-primary lg:text-lg">
-                  Read more
-                </a>
+                <Link to="/blog/1">
+                  <a href="#" class="btn btn-primary lg:text-lg">
+                    Read more
+                  </a>
+                </Link>
               </footer>
             </div>
           </div>

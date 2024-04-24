@@ -107,7 +107,7 @@ function Layout() {
         </div>
       </div>
 
-      <footer class="bg-gray-800 text-white py-6">
+      <footer class="bg-gray-800 text-white py-2">
         <div class="container mx-auto text-center">
           &copy; 2024 Your Website. All rights reserved.
         </div>

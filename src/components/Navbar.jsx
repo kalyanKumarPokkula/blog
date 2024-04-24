@@ -42,12 +42,14 @@ function Navbar() {
               Contact
             </a>
           </Link>
-          <a
-            href="#"
-            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-          >
-            Sign In
-          </a>
+          <Link to="/signin">
+            <a
+              href="#"
+              class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+            >
+              Sign In
+            </a>
+          </Link>
         </div>
         <div class="md:hidden">
           <button class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
