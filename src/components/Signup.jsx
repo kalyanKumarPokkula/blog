@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 function Signup() {
   return (
     <div class="w-full h-screen container mx-auto  px-4 py-8 flex gap-8 justify-center items-center flex-col">
-      <h1 class="text-3xl font-bold text-center">Sign Up</h1>
-      <form class="w-full max-w-lg bg-white p-12 mt-4 mb-24">
+      <form class="w-full max-w-lg bg-white p-12">
+        <h1 class="text-3xl mb-8 font-bold text-center">Sign Up</h1>
         <div class="mb-6">
           {/* <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
             Email

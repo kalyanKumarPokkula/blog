@@ -2,9 +2,9 @@ import aboutsvg from "../assets/aboutsvg.svg";
 
 function About() {
   return (
-    <div class="w-full h-screen container mx-auto  px-4 py-8 flex gap-8 justify-center items-center flex-col">
-      <h1 class="text-3xl font-bold mb-4 text-center">About Page</h1>
-      <div class=" mt-8 mb-24 flex gap-8 justify-center items-center md:flex-row">
+    <div class="w-full h-screen container mx-auto px-4 py-4 flex gap-8 justify-center items-center flex-col">
+      <h1 class="text-3xl font-bold text-center">About Page</h1>
+      <div class="ml-24 mr-24 flex gap-8 justify-center items-center md:flex-row">
         <div class="md:w-1/2">
           <h5 class="text-xl font-bold">Our Mission</h5>
           <p class="text-gray-700 mb-6">
@@ -30,14 +30,14 @@ function About() {
             voices and experiences in our community.
           </p>
 
-          <h5 class="text-xl font-bold">Join Our Community</h5>
+          {/* <h5 class="text-xl font-bold">Join Our Community</h5>
 
           <p class="text-gray-700">
             We invite you to join our growing community of readers and
             contributors. Whether you're a seasoned writer or a passionate
             reader, there's a place for you at MindFuel. Share your thoughts,
             ideas, and feedback, and be a part of the conversation.
-          </p>
+          </p> */}
         </div>
         <div class="md:w-1/2">
           {/* <img src="https://via.placeholder.com/600x400" alt="Image" class="w-full h-auto"> */}

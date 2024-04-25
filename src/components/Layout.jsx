@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Layout() {
   return (
     <div>
-      <div class="w-full h-screen container mx-auto  px-4 py-8 flex gap-8 justify-center items-center md:flex-row">
+      <div class="w-full h-screen container mx-auto px-24 py-24 flex gap-8 justify-center items-center md:flex-row">
         <div class="md:w-1/2">
           <h1 class="text-4xl font-bold mb-4">
             Ignite Your Curiosity - Dive Deep into MindFuel's World of Ideas
@@ -29,7 +29,7 @@ function Layout() {
             Learn More
           </a>
         </div>
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 ">
           {/* <img src="https://via.placeholder.com/600x400" alt="Image" class="w-full h-auto"> */}
           <img src={blog} alt="img" />
         </div>
@@ -43,7 +43,7 @@ function Layout() {
 
         {/* <!-- Blog Post 1 --> */}
 
-        <div class="mt-16 flex gap-8 justify-center items-center">
+        <div class="mt-16 ml-24 mr-24 flex gap-8 justify-center items-center">
           <div class="max-w-lg bg-white rounded-lg overflow-hidden shadow-md mb-6">
             {/* <img src="https://via.placeholder.com/600x400" alt="Blog Post Image" class="w-full h-auto"> */}
             <img src={travel} alt="img" class="w-full h-auto" />
