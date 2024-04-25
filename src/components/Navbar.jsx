@@ -10,7 +10,7 @@ function Navbar() {
           </a>
         </div>
         <div class="hidden md:block">
-          <Link to="/blog">
+          <Link to="/">
             <a
               href="#"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -18,7 +18,7 @@ function Navbar() {
               Home
             </a>
           </Link>
-          <Link to="/blog/about">
+          <Link to="/about">
             <a
               href="#about"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -26,7 +26,7 @@ function Navbar() {
               About
             </a>
           </Link>
-          <Link to="/blog/blogs">
+          <Link to="/blogs">
             <a
               href="#blogs"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -34,7 +34,7 @@ function Navbar() {
               blogs
             </a>
           </Link>
-          <Link to="/blog/contact">
+          <Link to="/contact">
             <a
               href="#contact"
               class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -42,7 +42,7 @@ function Navbar() {
               Contact
             </a>
           </Link>
-          <Link to="/blog/signin">
+          <Link to="/signin">
             <a
               href="#"
               class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
