@@ -43,7 +43,7 @@ function Blogs() {
               </a>
               <footer class="mt-6 flex items-start">
                 <a href="#"></a>
-                <Link to="/blog/1">
+                <Link to="/blog/blog/1">
                   <a href="#" class="btn btn-primary lg:text-lg">
                     Read more
                   </a>
@@ -86,7 +86,7 @@ function Blogs() {
               </a>
               <footer class="mt-6 flex items-start">
                 <a href="#"></a>
-                <Link to="/blog/1">
+                <Link to="/blog/blog/1">
                   <a href="#" class="btn btn-primary lg:text-lg">
                     Read more
                   </a>
@@ -131,7 +131,7 @@ function Blogs() {
               </a>
               <footer class="mt-6 flex items-start">
                 <a href="/blog/dizzies-online-store-to-close"></a>
-                <Link to="/blog/1">
+                <Link to="/blog/blog/1">
                   <a href="#" class="btn btn-primary lg:text-lg">
                     Read more
                   </a>

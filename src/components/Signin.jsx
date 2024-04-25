@@ -38,7 +38,7 @@ function Signin() {
           <Link>
             <a href="#">Forgot Password?</a>
           </Link>
-          <Link to="/signup">
+          <Link to="/blog/signup">
             <a href="#">Sign Up</a>
           </Link>
         </div>

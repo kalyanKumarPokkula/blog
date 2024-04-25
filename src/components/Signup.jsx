@@ -47,7 +47,7 @@ function Signup() {
         </div>
         <div class="mt-6 flex justify-center gap-3 ">
           <p>Have an account?</p>
-          <Link to="/signin">
+          <Link to="/blog/signin">
             <a href="#">Sign In</a>
           </Link>
         </div>
